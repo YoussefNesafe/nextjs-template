@@ -1,0 +1,23 @@
+{
+  "layout": {
+    "navbar": {
+      "languages": [
+        {
+          "label": "English",
+          "value": "en"
+        },
+        {
+          "label": "عربي",
+          "value": "ar"
+        },
+        {
+          "label": "اُردُو",
+          "value": "ur"
+        }
+      ]
+    }
+  },
+ "homePage": {
+    "test": "AR Language Test"
+  }
+}

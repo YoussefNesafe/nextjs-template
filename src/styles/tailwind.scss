@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+}
+
+@layer components{
+  ::-webkit-scrollbar {
+    @apply hidden bg-transparent desktop:flex  desktop:w-[0.417vw];
+  }
+
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    @apply bg-transparent;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    @apply hidden bg-red-900  desktop:flex  desktop:rounded-[0.208vw];
+
+  }
+}
